@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Message Modal</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<div class="modal">
+			<div class="modal__contenido">
+				<div class="modal__logo"></div>
+				<h2>Su pago se ha realizado con éxito</h2>
+				<p>Muchas gracias por confiar en nosotros</p>
+				<div class="modal__buttons">
+					<button class="button__cerrar">Cerrar</button>
+				</div>
+			</div>
+		</div>
+    <div class="fondo">
+		<h1>Curso de Javascript</h1>
+    <h2>Nivel 1
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit nobis distinctio, rerum, quasi labore fugit doloremque quo harum sunt perspiciatis maxime aut, ratione aspernatur nemo facere architecto necessitatibus mollitia placeat.</p>
+    <h2>Nivel 2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A harum, enim architecto corporis eos iure nulla non odit beatae in aspernatur id explicabo, quasi officia, reiciendis maiores officiis at sunt.</p>
+    <h2>Nivel 3</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem blanditiis voluptatibus at dolorum numquam, officia enim tempore, corporis distinctio cupiditate. Iure </p>
+  </div>
+		<script>
+			document.querySelector(".button__cerrar").addEventListener("click", () => {
+				document.querySelector(".modal").style.display = "none";
+			});
+		</script>
+	</body>
+</html>
